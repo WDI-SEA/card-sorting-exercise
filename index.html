@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Sorting</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="instructions">
+      <p>This is to help you with sorting practice!</p>
+      <p>With a partner, assign one person to move cards and one person to be in charge of comparisons.</p>
+      <p>
+        The card person should lay the cards out in a line on the table. The card person's goal is to sort the cards. Starting at the beginning of the list, for the first two cards, ask the comparison person whether they should swap the two cards or not. Continue this process for the next two cards, and so on until the end of the line. Start over at the beginning when you're done. Keep doing this process until you make a pass through of your line of cards and make zero swaps. Congratulations, you have a sorted deck of cards!
+      </p>
+      <p><span class="note">
+        Comparison person: Always answer ties with "don't swap" - we'll talk about why that's important in a moment.
+      </span></p>
+      <p>Swap roles, shuffle your deck, and repeat the process</p>
+      <p><span class="aside">
+        Typically, you might have your chosen card order be numerical (as it is in poker), but feel free to pick whatever variation you would like. For example - what if aces were always low? How about reverse order? Or what about using pinochle ordering - [9, J, Q, K, 10, A]?
+      </span></p>
+    </section>
+    <section class="actions">
+      <form id="getCards">
+        <!-- <input type="number" name="number" placeholder="number of cards"> -->
+        <input type="submit" id="btn-shuffle" value="Shuffle the Deck!">
+      </form>
+    </section>
+    <section class="cards-wrapper">
+
+    </section>
+  </main>
+</body>
+</html>
